@@ -44,9 +44,6 @@ class MyPyQT_Form(QtWidgets.QWidget, Ui_Form):
             subject = self.lineEdit_4.text()
             text = self.textEdit.toPlainText()
 
-            # username = "3250786412@qq.com"
-            # password = "acxhnhlnzuzqdage"
-
             mailServer = "smtp.qq.com"
 
             serverPort = 465  # SMTP使用465号端口
